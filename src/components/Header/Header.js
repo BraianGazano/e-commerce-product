@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Container, Row, Col } from "react-bootstrap";
 import NavBar from "./../NavBar";
 
@@ -20,4 +21,17 @@ const Header = () => {
       );
 }
  
+=======
+import { NavBar } from "./NavBar";
+
+const Header = () => {
+    return (
+        <>
+        <img src="/images/logo.svg" alt="logo"></img>
+        <NavBar></NavBar>
+        </>
+      );
+}
+ 
+>>>>>>> 5cd6e710acac874f6e5dffe5ff4d912e8a03cc1d
 export default Header;

@@ -1,7 +1,7 @@
 import {Nav} from 'react-bootstrap';
 const NavBar = () => {
     return (
-        <>
+ 
         <Nav>
             <Nav.Item as="li">
              <Nav.Link>Collections</Nav.Link>
@@ -19,7 +19,7 @@ const NavBar = () => {
              <Nav.Link>Contact</Nav.Link>
             </Nav.Item>
         </Nav>
-        </>
+
       );
 }
 export default NavBar;

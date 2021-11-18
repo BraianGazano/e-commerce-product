@@ -6,11 +6,11 @@ function App() {
   return (
     <Container fluid className="App">
       <Row>
-        <Col md={1}></Col>
-        <Col md={10}>
-          <Header></Header>
+        <Col lg={1}></Col>
+        <Col lg={10}>
+          <Header className="container-header"></Header>
         </Col>
-        <Col md={1}></Col>
+        <Col lg={1}></Col>
       </Row>
     </Container>
   );

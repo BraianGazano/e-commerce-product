@@ -1,4 +1,3 @@
-
 import {Navbar, Container, Nav} from 'react-bootstrap';
 
 const HamburgerIcon = () =>{
@@ -6,8 +5,6 @@ const HamburgerIcon = () =>{
         <img alt="" src="./images/icon-menu.svg"></img>
     );
 };
-
-
 const NavBar = () => {
     return (
         <Navbar expand="lg">
@@ -26,7 +23,6 @@ const NavBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
       );
 }
 export default NavBar;

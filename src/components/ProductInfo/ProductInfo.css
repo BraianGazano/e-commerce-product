@@ -1,3 +1,20 @@
+:root{
+--Orange: hsl(26, 100%, 55%);
+--Pale-orange: hsl(25, 100%, 94%);
+}
+
+
+.cart{
+   fill: hsl(25, 100%, 94%);
+}
 .bold{
     font-weight: 700;
+}
+.price{
+    font-size: 1.8rem;
+}
+.btn-cart{
+    background-color:var(--Orange);
+    color: var(--Pale-orange);
+    padding: 0.5rem 4rem;
 }

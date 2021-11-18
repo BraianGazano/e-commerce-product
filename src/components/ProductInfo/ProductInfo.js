@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {Button, Image} from 'react-bootstrap';
+import {Button, Container, Image} from 'react-bootstrap';
 import "./ProductInfo.css"
 const ProductInfo = () => {
     const [counter, setCounter] = useState(1);
@@ -20,12 +20,15 @@ const ProductInfo = () => {
         These low-profile sneakers are your perfect casual wear companion. Featuring a 
         durable rubber outer sole, they’ll withstand everything the weather can offer.
         </p>
-        <span className="bold">${price}</span>
-        <span><s>$250.00</s></span>
-        <span>50%</span>
-        <Button onClick={sub}><Image src="/images/icon-minus.svg"></Image></Button>
-        <span className="bold">{counter}</span>
-        <Button onClick={add}><Image src="/images/icon-plus.svg"></Image></Button>
+        <span className="bold price">${price}</span>
+        <span className="bold px-4">50%</span><br></br>
+        <span><s>$250.00</s></span><br></br>
+        <Container fluid>
+            <Button onClick={sub}><Image src="/images/icon-minus.svg"></Image></Button>
+            <span className="bold">{counter}</span>
+            <Button onClick={add}><Image src="/images/icon-plus.svg"></Image></Button>
+            <Button className="btn-cart"><Image className="px-1 cart" src="/images/icon-cart.svg"></Image> Add to cart</Button>
+        </Container>
         </>
      );
 };

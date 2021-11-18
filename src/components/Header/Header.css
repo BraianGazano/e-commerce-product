@@ -1,0 +1,40 @@
+.icons{
+    justify-content: end;
+}
+.avatar{
+    width: 55px!important;
+}
+
+@media screen and (max-width:400px){
+    .cart{
+        padding-right: 0px!important;
+    }
+}
+@media screen and (max-width:600px){
+    .avatar{
+        padding: 0px!important;
+    }
+}
+@media screen and (max-width:700px){
+    .avatar{
+        padding: 15px!important;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .avatar{
+        padding:5px;
+        margin-left: 15px;
+    }
+    .cart{
+     padding: 20px;
+    }
+}
+@media screen and (min-width:1001px){
+    .avatar{
+        margin-left: 15px;
+    }
+    .cart{
+     padding: 15px;
+    }
+}

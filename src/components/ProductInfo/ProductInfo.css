@@ -1,11 +1,11 @@
 :root{
 --Orange: hsl(26, 100%, 55%);
 --Pale-orange: hsl(25, 100%, 94%);
-}
-
-
-.cart{
-   fill: hsl(25, 100%, 94%);
+--White:hsl(0, 0%,100%);
+--Very-dark-blue: hsl(220, 13%, 13%);
+--Dark-grayish-blue: hsl(219, 9%, 45%);
+--Grayish-blue: hsl(220, 14%, 75%);
+--Light-grayish-blue: hsl(223, 64%, 98%);
 }
 .bold{
     font-weight: 700;
@@ -15,6 +15,37 @@
 }
 .btn-cart{
     background-color:var(--Orange);
-    color: var(--Pale-orange);
-    padding: 0.5rem 4rem;
+    color: var(--White);
+    padding: 0.8rem 4rem;
+    border: none;
+    border-radius: 9px;
+    box-shadow: var(--Pale-orange);
+}
+.icon-cart{
+    filter: invert(96%) sepia(4%) saturate(0%) hue-rotate(332deg) brightness(106%) contrast(104%);
+}
+
+.company{
+    text-transform: uppercase;
+    color: var(--Orange);
+    letter-spacing: 0.1em;
+}
+
+.discount{
+    background-color: var(--Pale-orange);
+    color: var(--Orange);
+
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.previous-price{
+    text-decoration: line-through;
+    color: var(--Grayish-blue);
+}
+
+.buttons-counter{
+    background-color: var(--Light-grayish-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

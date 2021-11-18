@@ -15,8 +15,8 @@ function App() {
       </Row>
       <Row>
       <Col lg={1}></Col>
-      <Col lg={5}></Col>
-      <Col lg={5}>
+      <Col lg={6}></Col>
+      <Col lg={4}>
         <ProductInfo></ProductInfo>
       </Col>
       <Col lg={1}></Col>

@@ -26,8 +26,8 @@ Los usuarios serán capaces de:
 
 ### Screenshot
 
-![Diseño escritorio](./src/images/Desktop.png)
-![Diseño movil](./src/images/Mobile.png)
+![Diseño escritorio](./public/images/Desktop.png)
+![Diseño movil](./public/images/Mobile.png)
 
 ### Links
 
